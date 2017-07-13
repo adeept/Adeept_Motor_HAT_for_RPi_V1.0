@@ -12,7 +12,7 @@
 import RPi.GPIO as GPIO
 import time
 
-LedPin = 31   # 29/31/33
+LedPin = 33   # 29/31/33
 
 def setup():
 	GPIO.setmode(GPIO.BOARD)       # Numbers pins by physical location
